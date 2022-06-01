@@ -1,0 +1,228 @@
+body{
+  font-family: "Montserrat";
+}
+
+h2{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+h3{
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+/* Headings */
+
+.Big-heading{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+
+
+
+
+#title{
+  background-color: #FF4C68;
+  color: #fff;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+
+/* Navigation Bar */
+
+
+.navbar {
+  padding-bottom:2.5rem ;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.4rem;
+  font-family: "Montserrat";
+  font-weight: 200;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 3rem;
+}
+
+
+/* Download Buttons */
+
+.download-buttons{
+  margin: 3% 5% 3% 0;
+}
+
+
+.iphone_img{
+  transform: rotate(25deg);
+  width: 22%;
+  position: absolute;
+
+}
+
+
+
+
+/* Features */
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+
+.padd-col{
+  padding: 30px 12px 30px 12px;
+}
+
+
+
+.feature-text{
+  text-align: center;
+
+}
+
+.set-width{
+  color: #8f8f8f;
+  padding:0 30px 0 30px;
+}
+
+.feature-icon{
+  padding: 10px 0 20px 0;
+  color: #ef8172;
+}
+
+.feature-icon:hover{
+  color: #ff4c68;
+}
+
+
+
+/* Testimonials Section */
+
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 1rem;
+}
+
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.press-logo{
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+
+
+/* Price Tags */
+
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.price-column{
+  padding: 3% 2%;
+}
+
+.sign-button1:hover{
+  background-color: #fff;
+  color:#000;
+}
+
+.sign-button2:hover{
+  background-color: #fff;
+  color:#000;
+}
+
+
+/* Cta Section */
+
+#cta{
+  background-color: #ff4c68;
+  padding: 3% 15%;
+  text-align: center;
+  color: #fff;
+}
+
+
+.download-button{
+  margin: 3% 3% 3% 0;
+}
+
+
+/* Footer Section */
+
+#footer{
+  background-color: #fff;
+  color: #A39F93;
+  text-align: center;
+  padding-top: 7%;
+  padding-bottom: 5%;
+}
+
+.icon-check{
+  padding: 2% 1%;
+}
+
+
+@media screen and (max-width: 1028px) {
+
+  #title{
+    text-align: center;
+  }
+
+  .image-main{
+    position: static;
+  }
+
+  .iphone_img{
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+
+  #features{
+    position: static;
+    z-index: 0;
+
+  }
+}
